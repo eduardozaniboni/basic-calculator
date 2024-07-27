@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <button class="mode-toggle">Dark Mode</button>
+        <h1>Basic Calculator</h1>
+        <div class="main">
+            <p id="display" class="display"></p>
+            <p>
+                <button id="buttons" class="buttons clear">C</button>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button class="buttons equals">=</button>
+            </p>
+            <p>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button id="number1" class="buttons number">1</button>
+                <button id="number2" class="buttons number">2</button>
+                <button id="number3" class="buttons number">3</button>
+                <button class="buttons sum operation">+</button>
+            </p>
+            <p>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button id="number4" class="buttons number">4</button>
+                <button id="number5" class="buttons number">5</button>
+                <button id="number6" class="buttons number">6</button>
+                <button class="buttons les operation">-</button>
+            </p>
+            <p>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button id="number7" class="buttons number">7</button>
+                <button id="number8" class="buttons number">8</button>
+                <button id="number9" class="buttons number">9</button>
+                <button class="buttons mul operation">*</button>
+            </p>
+            <p>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button id="number0" class="buttons number">0</button>
+                <button disabled id="buttons" class="buttons hideElement">-</button>
+                <button class="buttons div operation">/</button>
+            </p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
